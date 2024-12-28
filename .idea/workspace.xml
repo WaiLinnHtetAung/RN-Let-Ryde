@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a26f2f2e-fe4a-44b0-b330-3a71335db2d5" name="Changes" comment="signup page init">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/InputField.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/OAuth.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/cache.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(auth)/SignIn.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/SignIn.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(auth)/SignUp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/SignUp.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(root)/(tabs)/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/(tabs)/Home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(root)/(tabs)/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/(tabs)/_layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(root)/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/_layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="a26f2f2e-fe4a-44b0-b330-3a71335db2d5" name="Changes" comment="Auth with Clerk" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,7 +87,7 @@
       <workItem from="1735356782301" duration="3672000" />
       <workItem from="1735360474507" duration="842000" />
       <workItem from="1735365524668" duration="244000" />
-      <workItem from="1735365781674" duration="22458000" />
+      <workItem from="1735365781674" duration="22980000" />
     </task>
     <task id="LOCAL-00001" summary="signup page init">
       <option name="closed" value="true" />
@@ -112,7 +97,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735385636244</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Auth with Clerk">
+      <option name="closed" value="true" />
+      <created>1735409494888</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1735409494888</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +113,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="signup page init" />
-    <option name="LAST_COMMIT_MESSAGE" value="signup page init" />
+    <MESSAGE value="Auth with Clerk" />
+    <option name="LAST_COMMIT_MESSAGE" value="Auth with Clerk" />
   </component>
 </project>
