@@ -38,7 +38,7 @@ const Layout = () => (
         paddingBottom: Platform.OS === "ios" ? 0 : 30,
         overflow: "hidden",
         marginHorizontal: 20,
-        marginBottom: 20,
+        marginBottom: 15,
         height: 78,
         display: "flex",
         flexDirection: "row",

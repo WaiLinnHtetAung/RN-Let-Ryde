@@ -9,6 +9,7 @@ import InputField from "@/components/InputField";
 import CustomButton from "@/components/CustomButton";
 import OAuth from "@/components/OAuth";
 import { ReactNativeModal } from "react-native-modal";
+import { storeUser } from "@/services/useUserService";
 
 const SignUp = () => {
   const [form, setForm] = useState({
@@ -63,7 +64,8 @@ const SignUp = () => {
       // If verification was completed, set the session to active
       // and redirect the user
       if (signUpAttempt.status === "complete") {
-        // Todo: create database user
+        // store in db
+        await storeUser(form.name, form.email, signUpAttempt.createdUserId);
 
         await setActive({ session: signUpAttempt.createdSessionId });
         setVerification({ ...verification, state: "success" });
