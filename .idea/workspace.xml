@@ -4,17 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a26f2f2e-fe4a-44b0-b330-3a71335db2d5" name="Changes" comment="Auth with Clerk">
-      <change afterPath="$PROJECT_DIR$/app/(api)/user+api.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/fetch.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/useUserService.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+    <list default="true" id="a26f2f2e-fe4a-44b0-b330-3a71335db2d5" name="Changes" comment="Git Update">
+      <change afterPath="$PROJECT_DIR$/app/(root)/FindRide.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/GoogleTextInput.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Map.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/RideCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/RideLayout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/map.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/useDriverStore.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/useLocationStore.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(auth)/SignUp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/SignUp.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(root)/(tabs)/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/(tabs)/_layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/(tabs)/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/(tabs)/Home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/types/type.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/type.d.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +117,9 @@
       <workItem from="1735365524668" duration="244000" />
       <workItem from="1735365781674" duration="23062000" />
       <workItem from="1735448471556" duration="12794000" />
-      <workItem from="1735483014665" duration="3695000" />
+      <workItem from="1735483014665" duration="4655000" />
+      <workItem from="1735534528646" duration="19363000" />
+      <workItem from="1735573150506" duration="6710000" />
     </task>
     <task id="LOCAL-00001" summary="signup page init">
       <option name="closed" value="true" />
@@ -137,7 +145,23 @@
       <option name="project" value="LOCAL" />
       <updated>1735409533722</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Onboarding UI">
+      <option name="closed" value="true" />
+      <created>1735487359255</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1735487359255</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Git Update">
+      <option name="closed" value="true" />
+      <created>1735487503928</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1735487503928</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +170,20 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="signup page init" />
     <MESSAGE value="Auth with Clerk" />
-    <option name="LAST_COMMIT_MESSAGE" value="Auth with Clerk" />
+    <MESSAGE value="Onboarding UI" />
+    <MESSAGE value="Git Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Git Update" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/types/type.d.ts</url>
+          <line>101</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
