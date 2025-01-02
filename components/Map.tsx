@@ -1,11 +1,15 @@
 import MapView, { Marker, PROVIDER_DEFAULT } from "react-native-maps";
 import { useLocationStore } from "@/store/useLocationStore";
-import { calculateRegion, generateMarkersFromData } from "@/libs/map";
+import {
+  calculateDriverTimes,
+  calculateRegion,
+  generateMarkersFromData,
+} from "@/libs/map";
 import { useDriverStore } from "@/store/useDriverStore";
 import { useEffect, useState } from "react";
 import { MarkerData } from "@/types/type";
 import { icons } from "@/constants";
-import { Text, View } from "react-native";
+import { ActivityIndicator, Text, View } from "react-native";
 
 const drivers = [
   {
@@ -62,7 +66,7 @@ const Map = () => {
     destinationLatitude,
   } = useLocationStore();
 
-  const { selectedDriver, setSelectedDriver } = useDriverStore();
+  const { selectedDriver, setDrivers } = useDriverStore();
   const [markers, setMarkers] = useState<MarkerData[]>([]);
 
   const region = calculateRegion({
@@ -73,6 +77,8 @@ const Map = () => {
   });
 
   useEffect(() => {
+    setDrivers(drivers);
+
     if (Array.isArray(drivers)) {
       if (!userLongitude || !userLatitude) return;
 
@@ -84,7 +90,25 @@ const Map = () => {
 
       setMarkers(newMarkers);
     }
-  }, [drivers, userLongitude, userLatitude]);
+  }, []);
+
+  // useEffect(() => {
+  //   if (
+  //     markers.length > 0 &&
+  //     destinationLatitude !== undefined &&
+  //     destinationLongitude !== undefined
+  //   ) {
+  //     calculateDriverTimes({
+  //       markers,
+  //       userLatitude,
+  //       userLongitude,
+  //       destinationLatitude,
+  //       destinationLongitude,
+  //     }).then((drivers) => {
+  //       setDrivers(drivers as MarkerData[]);
+  //     });
+  //   }
+  // }, [markers, destinationLatitude, destinationLongitude]);
 
   return (
     <MapView
@@ -93,6 +117,7 @@ const Map = () => {
       tintColor="black"
       showsPointsOfInterest={false}
       initialRegion={region}
+      mapType="standard"
       showsUserLocation={true}
       userInterfaceStyle="light"
     >

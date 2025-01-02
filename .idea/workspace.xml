@@ -5,19 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a26f2f2e-fe4a-44b0-b330-3a71335db2d5" name="Changes" comment="Git Update">
-      <change afterPath="$PROJECT_DIR$/app/(root)/FindRide.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/GoogleTextInput.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Map.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/RideCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/RideLayout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/map.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/utils.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/useDriverStore.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/useLocationStore.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(api)/(stripe)/create+api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(api)/(stripe)/pay+api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(api)/driver+api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(api)/ride/[id]+api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(api)/ride/create+api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(root)/BookRide.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(root)/ConfirmRide.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/DriverCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Payment.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/useDriverService.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/(tabs)/Chat.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/(tabs)/Chat.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(root)/(tabs)/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/(tabs)/Home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/(tabs)/Profile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/(tabs)/Profile.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/(tabs)/Rides.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/(tabs)/Rides.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/FindRide.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/FindRide.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/_layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Map.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Map.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/OAuth.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/OAuth.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/RideLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/RideLayout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/cache.ts" beforeDir="false" afterPath="$PROJECT_DIR$/libs/cache.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/map.ts" beforeDir="false" afterPath="$PROJECT_DIR$/libs/map.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/types/type.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/type.d.ts" afterDir="false" />
@@ -64,30 +75,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;js.linters.configure.manually.selectedeslint&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/ken/Desktop/app/let-ryde/app/(auth)&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;/home/ken/Desktop/app/let-ryde/node_modules/eslint&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;/home/ken/.nvm/versions/node/v20.11.1/bin/node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/home/ken/Desktop/app/let-ryde/node_modules/prettier&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/home/ken/Desktop/app/let-ryde/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "js.linters.configure.manually.selectedeslint": "true",
+    "last_opened_file_path": "/home/ken/Desktop/app/itgateway",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "/home/ken/Desktop/app/let-ryde/node_modules/eslint",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "/home/ken/.nvm/versions/node/v20.11.1/bin/node",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/home/ken/Desktop/app/let-ryde/node_modules/prettier",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "ts.external.directory.path": "/home/ken/Desktop/app/let-ryde/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/services" />
       <recent name="$PROJECT_DIR$/app/(auth)" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -120,6 +132,8 @@
       <workItem from="1735483014665" duration="4655000" />
       <workItem from="1735534528646" duration="19363000" />
       <workItem from="1735573150506" duration="6710000" />
+      <workItem from="1735615361618" duration="28576000" />
+      <workItem from="1735703184970" duration="59000" />
     </task>
     <task id="LOCAL-00001" summary="signup page init">
       <option name="closed" value="true" />
@@ -180,8 +194,17 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/types/type.d.ts</url>
           <line>101</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/(root)/ConfirmRide.tsx</url>
+          <line>7</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/libs/cache.ts</url>
+          <line>54</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

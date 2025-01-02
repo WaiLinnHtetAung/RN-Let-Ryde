@@ -95,7 +95,7 @@ declare interface PaymentProps {
   fullName: string;
   email: string;
   amount: string;
-  driverId: number;
+  driverId: number | string;
   rideTime: number;
 }
 
@@ -136,6 +136,6 @@ declare interface DriverStore {
 
 declare interface DriverCardProps {
   item: MarkerData;
-  selected: number;
+  selected: number | string;
   setSelected: () => void;
 }
